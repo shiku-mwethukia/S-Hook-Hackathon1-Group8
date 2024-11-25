@@ -10,4 +10,5 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 ## Technologies Used
 #### <li>HTML
 #### <li>CSS
+Visit the live site at https://shiku-mwethukia.github.io/S-Hook-Hackathon1-Group8/
 Feel free to explore the repository, and if you have any suggestions or feedback, feel free to contact me!
