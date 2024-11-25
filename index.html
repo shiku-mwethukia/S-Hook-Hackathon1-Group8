@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Mwethukia.jpg" alt="My Photo" id="profile-pic">
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="home-content">
+            <img src="Mary.jpg" alt="My Photo" class="home-photo">
+            <div class="home-text">
+                <h2><b>Hello, I'm Miss Mwethukia</b></h2>
+                <p>
+                Well let's say this is a new path I have taken in my career.....but am not so new to it.</p>
+                <p>I've been in the technology field for a while but never focused on software engineering, hurray let's see how it goes. Wish me luck 😁
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello!  
+            <strong>I am Mary Mwethukia.</strong> 
+            <br>
+            A tech girl who is passionate about cybersecurity, networking and now adding to the list software engineering.
+            As a current student at PLP Africa X Safaricom Hook, I am enrolled in a 16 weeks program in Software engineering that has made me be more curious and interested in writing codes to solve problems.
+            Additionally I m pursuing a Bachelor's degree at Maseno University, the only university on the equator in Kenya.
+            </p>
+            <p>
+            Technology has been an exciting concept for me and not only have I studied it in class, I had the priviledge to participate in the CA Cyberscurity Bootcamp and Hackathon 2023, Kisumu edition.
+            The experience was one I could relive again. During the event we successfully overcame various security challenges demonstrating our prowess in cybersecurity and also learnt more of what there is to cybersecurity.
+            </p>
+            <p>
+            In class I've had various opportunities to grab different concepts such as programming, database management, networking, software project management and et cetera.
+            I have decided to dive deep in the world of software engineering for it excites me to see societal problems being solved in a code.
+            </p>
+            <p>
+            I have background knowledge in:
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>MySQL</li>
+                <li>Android Development</li>
+            </ul>
+            </p>
+            <p>
+            Someday I hope to make a difference in the community by writing codes also.
+            </p>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="timeline-container">
+            <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon"></div>
+                <div class="timeline-content">
+                    <h3>Student, MASENO UNIVERSITY, KISUMU</h3>
+                    <p class="timeline-date">2021 — present (Year 4)</p>
+                    <p>Pursuing a Bachelor's degree in Information Technology at Maseno University, with an expected graduation year of 2025.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon"></div>
+                <div class="timeline-content">
+                    <h3>Software Engineering, Safaricom Hook X PLP Africa, Remote</h3>
+                    <p class="timeline-date">Present</p>
+                    <p>Enrolled in a rigorous 16 week program in Software Engineering that has deepened my love for writing software that creatively solves problems.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon"></div>
+                <div class="timeline-content">
+                    <h3>Cybersecurity Essentials, Cisco Networking Academy, Remote</h3>
+                    <p class="timeline-date">May - July 2023</p>
+                    <p>Enhancing my cybersecurity knowledge and skills</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="download-cv">
+        <a href="CV.pdf" target="My-CV" class="download-btn">Download CV</a>
+    </section>
+    
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>For the 3 years i have completed in campus I have done two school projects.</p>
+        <p>
+            <ol type = "i">
+                <li>Handwritten Signature Verification system</li>
+                <p>In my 2nd year of study, in a group of 7 we created a handwritten verification system which would verify students' signature in Kenyan universities. The system was written in python and it incorporated machine learning specifically AlexNet architecture.</p>
+                <p>Despite all our efforts we did not deploy the system because it was not accurate. This was due to the computationally expensive training model and lack of specific hardware requirements to train the system.</p>
+                <li>Lugha Link Virtual Translator</li>
+                <p>In 3rd year, in a group of 4 we created an English to Swahili traslation virtual assistant which would be used by swahili learners to translate English words and phrases to Swahili. The system was written in python and used tensorflow and kaggle datasets for training to translate between English and Swahili. NLTK library for Python was used to train the model to identify and process natural languages. </p>
+            </ol>
+
+        </p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/xldewznr" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+    
+            <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer id="social-footer">
+        <div class="social-icons">
+            <a href="https://github.com/shiku-mwethukia" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:marymwethukia65@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mary-mwethukia/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/WMwethukia" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

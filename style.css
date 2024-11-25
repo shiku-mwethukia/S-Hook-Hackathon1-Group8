@@ -1,0 +1,266 @@
+#profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 100px; 
+}
+
+#home {
+    display: flex;
+    align-items: left; 
+    justify-content: left; 
+    padding: 50px 100px;
+    background-color: #796da5; 
+}
+
+.home-content {
+    display: flex;
+    max-width: 900px; 
+    gap: 20px; 
+}
+
+.home-photo {
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    object-fit: cover; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.home-text h2 {
+    font-size: 24px;
+    margin-bottom: 100px;
+    color: #0f0f0f;
+}
+
+.home-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0f0f0f;
+}
+
+body, h1, h2, p {
+    margin: 100;
+    padding: 150;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #333;
+    color: rgb(20, 20, 20);
+    position: relative; 
+    padding-left: 200px;
+    background: #333;
+    color: #f9f8fc;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin-left: 100px; 
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 50px; 
+    font-size: 16px;
+}
+
+header nav a {
+    color: #ffffff;
+    margin: 10 40px;
+    text-decoration: none;
+}
+
+section {
+    margin: 100px 100;
+    padding: 150px;
+    background: #222121;
+    color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#education-timeline {
+    padding: 150px;
+    background-color: #222121; 
+    color: #ffffff; 
+}
+
+.timeline {
+    position: relative;
+    padding-left: 40px; 
+    border-left: 2px solid #007BFF; 
+}
+
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px; 
+    padding-left: 20px; 
+}
+
+
+.timeline-icon {
+    position: absolute;
+    left: -12px; 
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #007BFF; 
+    border: 2px solid #ffffff; 
+    border-radius: 50%; 
+}
+
+
+.timeline-content h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #ffffff; 
+}
+
+.timeline-content .timeline-date {
+    font-size: 14px;
+    color: #a9a9a9; 
+    margin: 5px 0;
+}
+
+.timeline-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #dcdcdc;
+}
+
+.download-btn {
+    display: inline-block;
+    background-color: #007BFF; 
+    color: #fff;
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+}
+
+.download-btn:hover {
+    background-color: #0056b3; 
+}
+
+#contact {
+    padding: 40px 20px;
+    background-color: #222121; 
+    color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+form {
+    max-width: 400px; 
+    margin: 0 auto; 
+    background-color: #796da5; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left; 
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    color: #0a0a0a; 
+}
+
+input, textarea {
+    width: 100%; 
+    padding: 8x;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.btn-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a9a9e9; 
+    color: #141414; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0f93eb; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0; 
+    background-color: #12141a; 
+    color: #050505; 
+}
+
+
+#social-footer {
+    background-color: #796da5; 
+    color: #070707; 
+    text-align: center; 
+    padding: 20px;
+    margin-top:5px; 
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px; 
+    font-size: 24px; 
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.social-icons a:hover {
+    color: #007BFF; 
+}
+
+
+.social-icons a:hover {
+    color: #007BFF; 
+}
+
+
